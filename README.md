@@ -1,4 +1,4 @@
-# IBM Granite Research Agent
+# Research Agent IBM
 
 A lightweight AI research assistant powered by **IBM Granite-4** via watsonx.ai. Ask any research question and get detailed, well-reasoned, structured answers — directly in your browser.
 
