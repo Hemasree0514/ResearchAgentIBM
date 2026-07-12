@@ -81,41 +81,6 @@ research-agent/
 ├── .env                 # Secret config (not committed)
 └── README.md
 ```
-
----
-
-## API Reference
-
-### `POST /api/chat`
-
-Sends a conversation to IBM Granite-4 and returns the assistant's reply.
-
-**Request body**
-```json
-{
-  "messages": [
-    { "role": "system",    "content": "You are a rigorous research assistant..." },
-    { "role": "user",      "content": "Explain quantum entanglement." },
-    { "role": "assistant", "content": "..." }
-  ]
-}
-```
-
-**Success response `200`**
-```json
-{
-  "reply": "Quantum entanglement is...",
-  "usage": { "prompt_tokens": 42, "completion_tokens": 310, "total_tokens": 352 }
-}
-```
-
-**Error response**
-```json
-{ "error": "Human-readable error message" }
-```
-
----
-
 ## Model Parameters
 
 | Parameter | Value |
@@ -148,14 +113,6 @@ Sessions are stored client-side in `localStorage` under the key `rAgent_sessions
 
 No data ever leaves the browser except the messages sent to your own server.
 
----
-
-## Scripts
-
-| Command | Description |
-|---|---|
-| `npm start` | Start server with `node server.js` |
-| `npm run dev` | Start server with `nodemon` (auto-restart) |
 
 ---
 
