@@ -9,10 +9,8 @@ A lightweight AI research assistant powered by **IBM Granite-4** via watsonx.ai.
 - **Multi-turn conversations** — full message history is sent on every request so the model retains context across the entire session
 - **Persistent chat history** — sessions are saved to `localStorage` and restored between page reloads
 - **Multiple sessions** — start new chats, switch between past sessions, and delete individual sessions from the sidebar
-- **Quick Topics** — one-click preset prompts for Quantum Computing, LLM Research, Climate Science, CRISPR, and AI Safety
 - **Typing indicator** — animated dots while waiting for the model's response
-- **IAM token caching** — the server fetches an IBM IAM bearer token once and reuses it until 60 seconds before expiry, minimising latency and API calls
-- **Zero build step** — pure HTML/CSS/JS frontend served as static files by Express
+- **IAM token caching** — the server fetches an IBM IAM bearer token once and reuses it until 60 seconds before expiry, minimising latency and API call
 
 ---
 
