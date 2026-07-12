@@ -26,17 +26,6 @@ A lightweight AI research assistant powered by **IBM Granite-4** via watsonx.ai.
 | Auth | IBM IAM (`grant_type: apikey` → Bearer token) |
 | HTTP client | Axios |
 | Config | dotenv |
-
----
-
-## Prerequisites
-
-- **Node.js** v18 or later
-- An **IBM Cloud** account with:
-  - A watsonx.ai project
-  - An API key with access to the project
-  - The Granite-4 model enabled in your region (default: `eu-de`)
-
 ---
 
 ## Getting Started
