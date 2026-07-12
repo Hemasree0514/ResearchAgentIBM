@@ -14,6 +14,17 @@ A lightweight AI research assistant powered by **IBM Granite-4** via watsonx.ai.
 
 ---
 
+## Project Structure
+
+```
+research-agent/
+├── public/
+│   └── index.html       # Single-page frontend (chat UI)
+├── server.js            # Express server + /api/chat endpoint
+├── package.json
+├── .env                 # Secret config (not committed)
+└── README.md
+```
 ## Tech Stack
 
 | Layer | Technology |
@@ -68,18 +79,6 @@ npm run dev
 
 Open your browser at [http://localhost:3000](http://localhost:3000).
 
----
-
-## Project Structure
-
-```
-research-agent/
-├── public/
-│   └── index.html       # Single-page frontend (chat UI)
-├── server.js            # Express server + /api/chat endpoint
-├── package.json
-├── .env                 # Secret config (not committed)
-└── README.md
 ```
 ## Model Parameters
 
